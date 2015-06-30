@@ -3,7 +3,7 @@ import material
 type
     SceneObj = object
         materialManager: MaterialManager
-        meshes:seq[Mesh]
+        meshes:seq[Mesh] 
     Scene* = ref SceneObj not nil
 
 proc bk()=
